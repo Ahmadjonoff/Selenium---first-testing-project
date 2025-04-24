@@ -22,5 +22,5 @@ class BasePageLocators():
     BASKET_LINK = (By.XPATH, '//a[@class="btn btn-default"][contains(@href, "basket")]')
 
 class BasketPageLocators():
-    PRODUCTS_LINK = (By.CSS_SELECTOR, "basket-items")
-    EMPTY_TEXT_LINK = (By.CSS_SELECTOR, 'div[id="content_inner"] p')
+    PRODUCTS_LINK = (By.CSS_SELECTOR, ".basket-items")
+    EMPTY_TEXT_LINK = (By.CSS_SELECTOR, '#content_inner > p')
